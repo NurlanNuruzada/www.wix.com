@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.links li {
+    text-decoration: none;
+    padding: 0 10px;
+    list-style: none;
+    cursor: pointer;
+}
+
+.links {
+    display: flex;
+    gap: 5px;
+    font-size: 18px;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+
+.links li:hover {
+    color: #9E3ffd;
+    transition: .3s ease;
+
+}
+
+.main__navbar button,
+h1 {
+    cursor: pointer;
+
+}
+
+.button {
+    background-color: #9E3ffd;
+    outline: none;
+    border: 1px transparent;
+    border-radius: 20px;
+    padding: 10px 30px;
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+    text-transform: capitalize !important;
+}
+
+.main__navbar button:hover {
+    background-color: #16163f;
+    transition: .3s ease;
+
+
+}
+
+.main__navbar h1 {
+    font-size: 27px;
+    font-weight: 500;
+}
+
+.main__navbar {
+    color: #16163f;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    position: fixed;
+    padding: 20px 40px;
+    border: 1px solid transparent;
+}
+.main__section1 img{
+    background: no-repeat;
+    object-fit: contain;
+    width: 100%;
+    height: fit-content;
+    position: absolute;
+    z-index: -1;
+    
+}
+.afterScrool{
+    box-shadow: var(--shd-scrl,0 0 5px rgba(0,0,0,.5));
+    background-color: #ffff ;
+    border: 1px solid #d8d6d6;
+    transition: .3s ease;
+    transition-property: background-color , box-shadow;
+}
+.Home{
+    color: #16163f;
+    padding-top: 260px;
+    overflow-wrap: normal;
+    padding-left: 130px;
+
+}
+.Home button{
+margin-top: 30px;
+}
+.Home h1{
+font-size: 80px;
+}
+.Home h2{
+font-weight: 300;
+opacity: 0.8;
+line-height: 40px;
+}
