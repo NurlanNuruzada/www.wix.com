@@ -309,3 +309,33 @@ button:hover {
 .title3 img{
     margin-top: 50px;
 }
+.right2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 90px
+}
+.right2 input{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+    height: 40px;
+    width: 424px
+}
+.right2 input:hover{
+    border-color: #9E3ffd;
+    border-width:  2px
+}
+.right2 #fName ,#lName{
+    width: 200px !important
+} 
+input, label {
+    margin-top: 20px;
+    display:block;
+}
+.gridcontainer3 .left{
+    width: 500px
+}
+.right2 button{
+    margin-top:  40px
+
+}
