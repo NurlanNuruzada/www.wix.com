@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Ubuntu', sans-serif;
+    scroll-behavior: smooth;
 }
 
 .links li {
@@ -19,13 +20,11 @@
     font-weight: 300;
     text-transform: capitalize;
     padding-left: 25px;
-
 }
 
 .links li:hover {
     color: #9E3ffd;
     transition: .3s ease;
-
 }
 
 .main__navbar button,
@@ -72,7 +71,6 @@ button:hover {
     padding-top: 260px;
     overflow-wrap: normal;
     padding-left: 130px;
-
 }
 
 .afterScrool {
@@ -89,7 +87,6 @@ button:hover {
     overflow-wrap: normal;
     padding-left: 130px;
     height: 200px;
-
 }
 
 .Home button {
@@ -106,9 +103,11 @@ button:hover {
     opacity: 0.8;
     line-height: 25px;
 }
-.main__section1{
+
+.main__section1 {
     height: 500px;
 }
+
 .main__section1 {
     height: 800px;
     width: 100%;
@@ -116,10 +115,11 @@ button:hover {
     min-height: 350px;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
     background-position-x: center;
 }
-.black{
+
+.black {
     height: 2000px;
     width: 100%;
     height: 70px;
@@ -129,35 +129,40 @@ button:hover {
     bottom: 0;
     display: none;
 }
-.text{
+
+.text {
     height: 2000px;
 }
-.title{
+
+.title {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.title h1{
+
+.title h1 {
     color: #9E3ffd;
     font-size: 16px;
     font-weight: 500;
     letter-spacing: 2px;
-    padding: 100px 0  40px;
-
+    padding: 100px 0 40px;
 }
-.title h2{
+
+.title h2 {
     color: #16163f;
     transform: scaleX(1.1);
     font-weight: 500;
     font-size: 35px;
     word-spacing: 2px;
 }
-.grid_container{
+
+.grid_container {
     display: grid;
     grid-template-columns: auto auto auto;
     width: 100%;
 }
-.card{
+
+.card {
     color: #16163f;
     text-align: center;
     display: flex;
@@ -167,64 +172,74 @@ button:hover {
     margin-top: 50px;
     margin-bottom: 100px;
 }
+
 .card img {
     height: 200px;
 }
-.card h1{
+
+.card h1 {
     font-size: 16px;
 }
-.card h2{
+
+.card h2 {
     font-size: 18px;
     line-height: 1.5em;
     font-weight: 300;
 }
-.main__section3{
+
+.main__section3 {
     width: 100%;
     height: 400px;
     background-color: #16163f;
     padding: 50px 150px;
-
 }
-.main__section3 h1{
+
+.main__section3 h1 {
     color: white;
     text-align: center;
     padding-top: 50px;
     font-size: 35px;
     word-spacing: 5px;
-
 }
-.Numbers{
+
+.Numbers {
     display: flex;
     justify-content: space-around;
     color: white;
     align-items: center;
 }
-.Numbers>h1{
+
+.Numbers>h1 {
     font-size: 40px !important;
 }
-.Numbers h1{
+
+.Numbers h1 {
     font-size: 70px;
     font-size: 500;
 }
-.Numbers h2{
+
+.Numbers h2 {
     font-size: 18px;
     font-weight: 300;
 }
-.grid_container2{
+
+.grid_container2 {
     display: flex;
 }
-.title2{
-    padding: 80px 80px  0 80px;
-    
+
+.title2 {
+    padding: 80px 80px 0 80px;
 }
-.title2 h1{
+
+.title2 h1 {
     color: #9E3ffd;
     font-size: 16px;
     font-weight: 500;
     letter-spacing: 2px;
-    padding: 0px 5px  40px;
+    padding: 0px 5px 40px;
 }
-.title2 h2{
+
+.title2 h2 {
     padding-left: 20px;
     color: #16163f;
     transform: scaleX(1.1);
@@ -234,6 +249,7 @@ button:hover {
     padding-bottom: 20px;
     line-height: 20px;
 }
+
 .title2 p {
     font-size: 18px;
     color: #16163f;
@@ -241,11 +257,12 @@ button:hover {
     line-height: 30px;
     margin-bottom: 20px;
 }
-.left{
-    width: 50%;
 
+.left {
+    width: 50%;
 }
-.right{
+
+.right {
     background-image: url(/img/c837a6_38f0ee339302476e9f04ad2cab58a10e~mv2.webp);
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -254,44 +271,51 @@ button:hover {
     height: 700px;
     transform: scale(1);
 }
-.main__section5{
+
+.main__section5 {
     background-color: #9E3ffd;
 }
-.main__section5{
+
+.main__section5 {
     display: flex;
     flex-direction: column;
-    align-items: center ;
+    align-items: center;
     color: white;
 }
-.main__section5 h1{
+
+.main__section5 h1 {
     font-size: 16px;
     font-weight: 500;
     padding: 80px;
 }
-.main__section5 h2{
+
+.main__section5 h2 {
     font-size: 52px;
 }
-.main__section5{
 
-}
-.main__section6 img{
+.main__section5 {}
+
+.main__section6 img {
     width: 100%;
     height: 200px;
 }
-.gridcontainer3{
+
+.gridcontainer3 {
     display: grid;
     grid-template-columns: auto auto;
     padding: 100px 80px;
 }
-.title3 h1{
+
+.title3 h1 {
     color: #9E3ffd;
     font-size: 16px;
     font-weight: 500;
     letter-spacing: 2px;
-    padding: 0px 5px  40px;
+    padding: 0px 5px 40px;
     text-transform: uppercase;
 }
-.title3 h2{
+
+.title3 h2 {
     padding-left: 20px;
     color: #16163f;
     transform: scaleX(1.1);
@@ -301,57 +325,69 @@ button:hover {
     padding-bottom: 40px;
     line-height: 20px;
 }
+
 .title3 p {
     color: #16163f;
     padding-bottom: 12px;
     font-weight: 300;
 }
-.title3 img{
+
+.title3 img {
     margin-top: 50px;
 }
-.right2{
+
+.right2 {
     display: flex;
     flex-direction: column;
     margin-left: 90px
 }
-.right2 input{
+
+.right2 input {
     outline: none;
     border: none;
     border-bottom: 1px solid black;
     height: 40px;
     width: 424px
 }
-.right2 input:hover{
+
+.right2 input:hover {
     border-color: #9E3ffd;
-    border-width:  2px
+    border-width: 2px
 }
-.right2 #fName ,#lName{
+
+.right2 #fName,
+#lName {
     width: 200px !important
-} 
-input, label {
-    margin-top: 20px;
-    display:block;
 }
-.gridcontainer3 .left{
+
+input,
+label {
+    margin-top: 20px;
+    display: block;
+}
+
+.gridcontainer3 .left {
     width: 500px
 }
-.right2 button{
-    margin-top:  40px
 
+.right2 button {
+    margin-top: 40px
 }
+
 html,
 body {
-  position: relative;
-  height: 100%;
+    background-color: white !important;
+    position: relative;
+    height: 100%;
 }
 
 body {
-  background: #eee;
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  color: #000;
-  margin: 0;
-  padding: 0;
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
 }
 
 .swiper {
@@ -362,27 +398,48 @@ body {
 }
 
 .swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .swiper-slide img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
-.swiper-pagination-bullet-active{
+
+.swiper-pagination-bullet-active {
     background-color: white !important
 }
-.swiper-slide h1{
-    font-size:c 20px
 
+.swiper-slide h1 {
+    font-size: 20px
 }
-.swiper-slide h2{
-    font-size:c 20px
 
+.swiper-slide h2 {
+    font-size: 20px
+}
+
+.main__section5 {
+    padding-top: 30px;
+}
+
+#text {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.main__section5 h1 {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0px !important;
+}
+
+.main__section5>h2 {
+    font-size: 40px;
+    font-weight: 500;
 }
