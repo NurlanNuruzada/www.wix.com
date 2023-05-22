@@ -6,7 +6,7 @@
     scroll-behavior: smooth;
 }
 
-.links li {
+.links a {
     text-decoration: none;
     padding: 0 10px;
     list-style: none;
@@ -22,7 +22,15 @@
     padding-left: 25px;
 }
 
-.links li:hover {
+a:active {
+    color: currentColor;
+}
+
+a:visited {
+    color: #16163f;
+}
+
+.links a:hover {
     color: #9E3ffd;
     transition: .3s ease;
 }
