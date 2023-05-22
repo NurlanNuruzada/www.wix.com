@@ -13,6 +13,10 @@
         rel="stylesheet">
     <link rel="stylesheet" href="style/style.css">
     <script defer src="main.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
 </head>
 
 <body>
@@ -136,7 +140,18 @@
                 <h1>TESTIMONIALS</h1>
                 <h2>“I'm a testimonial. Click to </h2>
                 <h2>edit me and add text”</h2>
-
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <h1>Josh Phillips</h1>
+                        <h2>Company name</h2></div>
+                        <div class="swiper-slide">   <h1>Gabriella Spring</h1>
+                            <h2>Company name</h2></div></div>
+                        <div class="swiper-slide">   <h1>Louise Maxwell</h1>
+                            <h2>Company name</h2></div></div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
             </div>
             <div class="main__section6">
                 <img src="./img/Screenshot 2023-05-22 035113.png" alt="">
@@ -169,16 +184,16 @@
                                     <label for="fName">First Name</label>
                                     <input id="fName" type="text">
                                 </div>
-    
+
                                 <div style="float:left;">
                                     <label for="lName">last Name</label>
                                     <input id="lName" type="text">
                                 </div>
-    
+
                                 <br style="clear:both;" />
-    
+
                             </section>
-    
+
                             <section>
                                 <label for="email">Email*</label>
                                 <input id="email" type="text">
@@ -187,15 +202,23 @@
                             </section>
                             <button class="button">submit</button>
                         </form>
-
                     </div>
                 </div>
             </div>
 
         </div>
         <!-- mainContent end -->
+        
 
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            pagination: {
+                el: ".swiper-pagination",
+            },
+        });
+    </script>
 </body>
 
 </html>

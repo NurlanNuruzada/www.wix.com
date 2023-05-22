@@ -339,3 +339,50 @@ input, label {
     margin-top:  40px
 
 }
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 200px;
+    height: 100px;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.swiper-pagination-bullet-active{
+    background-color: white !important
+}
+.swiper-slide h1{
+    font-size:c 20px
+
+}
+.swiper-slide h2{
+    font-size:c 20px
+
+}
